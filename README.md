@@ -94,5 +94,5 @@ This tackled the aspect of developing a prototype device that is capable of auto
 <img src = "Images/P2image.PNG" width="800" height="250"/>
 
 #### A test of the integrated system
-<img src="https://media.giphy.com/media/uok84lQbn55drIKIbP/giphy.gif"/>
+<img src="https://media.giphy.com/media/THj1VqEMzBILYUMMXY/source.gif"/>
 
