@@ -1,5 +1,5 @@
 # MyProjects
-#### This repository contains the reports and other related information to the projects I have undertake so far
+#### This repository contains the reports and other related information to the projects I have undertaken so far
 
 ## Autonomous Exploration of Crazyflie Drone in a Known Environment
 <p align="justify">
@@ -40,7 +40,7 @@ To make for an inquisitive project, an emphasis was placed on understanding the 
 
 ## Bachelor's Thesis (6th Semester): LiDAR-based 2D EKF SLAM
 <p align="justify">
-This poroject expands upon the famous online SLAM problem predominant in the field of robotics, with a focus on wheeled vehicles in indoor environments. The devised solution includes the use of a 2D LiDAR sensor for perception of the surrounding. The a priori pose estimate of the EKF is determined by the velocity motion model. Line features, extracted based on the Split-and-Merge algorithm, are evaluated for possible data associations on the basis of their maximum likelihoods and utilised to compute the a posteriori state estimate. The performance of localization with midpoint enhancement and SLAM algorithms, coded in Python 3, are first assessed in a custom built test environment. Upon the achievements of successful results, efforts towards ROS-based SLAM simulation using the Gazebo tool are put forward.
+This project expands upon the famous online SLAM problem predominant in the field of robotics, with a focus on wheeled vehicles in indoor environments. The devised solution includes the use of a 2D LiDAR sensor for perception of the surrounding. The a priori pose estimate of the EKF is determined by the velocity motion model. Line features, extracted based on the Split-and-Merge algorithm, are evaluated for possible data associations on the basis of their maximum likelihoods and utilised to compute the a posteriori state estimate. The performance of localization with midpoint enhancement and SLAM algorithms, coded in Python 3, are first assessed in a custom built test environment. Upon the achievements of successful results, efforts towards ROS-based SLAM simulation using the Gazebo tool are put forward.
 </p>
 
 [Project Report](Bachelor's%20Thesis_LiDAR-based%202D%20EKF%20SLAM.pdf)
