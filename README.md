@@ -45,7 +45,7 @@ This project expands upon the famous online SLAM problem predominant in the fiel
 
 [Project Report](Bachelor's%20Thesis_LiDAR-based%202D%20EKF%20SLAM.pdf)
 
-####  Simulation of EKF Localization with known correspondences 
+####  Simulation of EKF Localization with unknown correspondences 
 <img src="https://media.giphy.com/media/mGVyICJ9FRpDTMa30X/giphy.gif"/>
 
 #### Simulation of EKF SLAM with unknown correspondences
