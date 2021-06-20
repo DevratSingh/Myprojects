@@ -1,5 +1,5 @@
 # MyProjects
-#### This repository conatains the reports and other related information to the projects I have undertake so far
+#### This repository contains the reports and other related information to the projects I have undertake so far
 
 ## Autonomous Exploration of Crazyflie Drone in a Known Environment
 <p align="justify">
