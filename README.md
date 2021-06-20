@@ -95,7 +95,7 @@ This tackled the aspect of developing a prototype device that is capable of auto
 
 #### A test of the integrated system
 
-<img src="https://media.giphy.com/media/tmwwnM1BW2Q9ngkZBn/giphy.gif"/>
+<img src="Images/ezgif.com-gif-maker.gif" width="450"/>
 
 
 
