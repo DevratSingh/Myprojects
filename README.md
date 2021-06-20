@@ -29,12 +29,12 @@ To make for an inquisitive project, an emphasis was placed on understanding the 
 </p> 
 
 #### Results From Network Trained on COCO Dataset
-<img src="https://gits-15.sys.kth.se/devrat/MyProjects/blob/master/Images/COCO-1_clf2ph1.png"  width="750" height="300"/>
+<img src="Images/COCO-1_clf2ph1.png"  width="750" height="300"/>
 
 #### Results From Network Trained on VOC Dataset
-<img src="https://gits-15.sys.kth.se/devrat/MyProjects/blob/master/Images/VOC-1_clfph1.JPG"  width="750" height="300"/>
+<img src="Images/VOC-1_clfph1.JPG"  width="750" height="300"/>
 
-[Project Report](https://gits-15.sys.kth.se/devrat/MyProjects/blob/master/Object%20detection%20with%20YOLOv3.pdf)
+[Project Report](Object%20detection%20with%20YOLOv3.pdf)
 
 [Link to the Project Git Repository](https://gits-15.sys.kth.se/devrat/DD2424project.git)
 
@@ -43,7 +43,7 @@ To make for an inquisitive project, an emphasis was placed on understanding the 
 This poroject expands upon the famous online SLAM problem predominant in the field of robotics, with a focus on wheeled vehicles in indoor environments. The devised solution includes the use of a 2D LiDAR sensor for perception of the surrounding. The a priori pose estimate of the EKF is determined by the velocity motion model. Line features, extracted based on the Split-and-Merge algorithm, are evaluated for possible data associations on the basis of their maximum likelihoods and utilised to compute the a posteriori state estimate. The performance of localization with midpoint enhancement and SLAM algorithms, coded in Python 3, are first assessed in a custom built test environment. Upon the achievements of successful results, efforts towards ROS-based SLAM simulation using the Gazebo tool are put forward.
 </p>
 
-[Project Report](https://gits-15.sys.kth.se/devrat/MyProjects/blob/master/Bachelor's%20Thesis_LiDAR-based%202D%20EKF%20SLAM.pdf)
+[Project Report](Bachelor's%20Thesis_LiDAR-based%202D%20EKF%20SLAM.pdf)
 
 ####  Simulation of EKF Localization with known correspondences 
 <img src="https://media.giphy.com/media/mGVyICJ9FRpDTMa30X/giphy.gif"/>
@@ -56,7 +56,7 @@ This poroject expands upon the famous online SLAM problem predominant in the fie
 This explores the matter of regulating the attitude and position of a quadrotor employing fundamental techniques of classical and modern control theory. A suitable model retaining only the relevant system dynamics is constructed by adhering to the Newton-Euler technique, while the unknown parameters are identified empirically. On the control side, two methods are put forward: PID and LQR. With the aid of Matlab and Simulink, their performance is assessed in continuous time within the context of stability and reference tracking. Additionally, the PID controller is successfully discretized, simulated and finally implemented on an MCU, allowing the design to be tested on the real setup. The Drone for this project was constructed from scratch by integrating various components such as motors, sensors, MCU etc.
 </p>
 
-[Project Report](https://gits-15.sys.kth.se/devrat/MyProjects/blob/master/5th%20Semester_Quadrotor%20Attitiude%20and%20Position%20Stabilization.pdf)
+[Project Report](5th%20Semester_Quadrotor%20Attitiude%20and%20Position%20Stabilization.pdf)
 
 
 #### Quick flight test of the implemented controllers on the drone constructed for this project
@@ -70,7 +70,7 @@ This explores the matter of regulating the attitude and position of a quadrotor 
 The project focuses on the control of angular speed of a PMDC motor interfaced by a step-down power converter employing fundamental techniques of classical and modern control theory. The system is modeled by retaining only the relevant dynamics and validated following the experimental motor parameter identification and the design of the switching voltage regulator. Four feedback control methods are put forward: PID for speed-only control, cascade PID for speed and current control, pole placement and LQR. Their performances are assessed within the context of stability and reference tracking using Matlab and Simulink. The controllers are then successfully implemented using an MCU, allowing the individual designs to be tested on the real setup. A qualitative analysis is carried out through a testing session that evinces the superiority of modern control design.
 </p>
 
-[Project Report](https://gits-15.sys.kth.se/devrat/MyProjects/blob/master/4th%20Semester_Speed%20Control%20of%20PMDC%20Motor%20Using%20a%20DC-to-DC%20Buck%20Converter.pdf)
+[Project Report](4th%20Semester_Speed%20Control%20of%20PMDC%20Motor%20Using%20a%20DC-to-DC%20Buck%20Converter.pdf)
 
 
 ## 3rd Semester: Laser Scanner for 3D Indoor Mapping
@@ -78,25 +78,21 @@ The project focuses on the control of angular speed of a PMDC motor interfaced b
 This project puts forward a particular solution in the form of a 3D scanning system, which could be utilized for indoor mapping. The system has a microcontroller at its core and integrates a stepper and a servo motor with a LiDAR sensor. Data comprising of distance measurements and angular positioning is processed and then displayed as a point cloud with the aid of MATLAB. The entire system is brought to a working condition and tested in a real environment.
 </p>
 
-[Project Report](https://gits-15.sys.kth.se/devrat/MyProjects/blob/master/3rd%20Semester_Laser%20Scanner%20for%203D%20Indoor.pdf)
+[Project Report](3rd%20Semester_Laser%20Scanner%20for%203D%20Indoor.pdf)
 
 #### Comparsion of the actual environment vs the scan obtained from our implementation
-<img src = "https://gits-15.sys.kth.se/devrat/MyProjects/blob/master/Images/P3image.PNG" width="500" height="500"/> 
+<img src = "Images/P3image.PNG" width="500" height="500"/> 
 
 ## 2nd Semester: Line Follower Automated Guided Vehicle for Medical Institutions
 <p align="justify">
 This tackled the aspect of developing a prototype device that is capable of autonomously traveling between different points within a map. The system utilizes Arduino to implement and integrate various functionalities. These functionalities include an input system to take user directions, RFID sensor for detecting checkpoints with RFID tags, ultrasonic sensors for obstacle detection and infrared sensors for line following. All these sensors and other system components were housed in a custom built 3D printed structure. In brief, the robot takes input from user in term of destination, it then tries to reach the desired position by following the black lines on the floor while making decisions at intersections.  
 </p>
 
-[Project Report](https://gits-15.sys.kth.se/devrat/MyProjects/blob/master/2nd%20Semester_Line%20Follower%20Automated%20Guided%20Vehicle%20for%20Medical%20Institutions.pdf)
+[Project Report](2nd%20Semester_Line%20Follower%20Automated%20Guided%20Vehicle%20for%20Medical%20Institutions.pdf)
 
 #### 3D printed structure for the project and its corresponding CAD model
-<img src = "https://gits-15.sys.kth.se/devrat/MyProjects/blob/master/Images/P2image.PNG" width="800" height="250"/>
+<img src = "Images/P2image.PNG" width="800" height="250"/>
 
 #### A test of the integrated system
 <img src="https://media.giphy.com/media/uok84lQbn55drIKIbP/giphy.gif"/>
-
-## 1st Semester: Optimizing Irrigation with Wireless Network of Soil Moisture Sensors
-
-
 
