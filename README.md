@@ -15,7 +15,7 @@ This project was implemented using ROS, with the implemented components being gr
 
 [System Design Figure](Images/SysDiagph1.png)
 
-[Brief System Design Report](https://gits-15.sys.kth.se/devrat/MyProjects/blob/master/Brief%20System%20Design%20Report%20_Crazyflie%20Project.pdf)
+[Brief System Design Report](Brief%20System%20Design%20Report%20_Crazyflie%20Project.pdf)
 
 [Link to the Project Git Repository](https://gits-15.sys.kth.se/denmag/DD2419_proj.git)
 
