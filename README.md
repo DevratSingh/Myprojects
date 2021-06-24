@@ -10,7 +10,6 @@ The main goal of this project was to allow for a "Crazyflie" drone to autonomous
 This project was implemented using ROS, with the implemented components being gradually tested first on a Gazebo simulation and then finally integrated to test on the real drone.
 </p> 
 
-Programming Language: *Python*
 #### Exploration through KF localization, Traffic sign detection using CNN and RRT-based exploration 
 [![DD2419ph1](https://i.postimg.cc/Qd5sttnM/thumbph1.png)](https://youtu.be/8_smu3H0q7g "Project Video")
 
