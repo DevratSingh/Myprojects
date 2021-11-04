@@ -17,7 +17,7 @@ This project was implemented using ROS, with the implemented components being gr
 
 [Brief System Design Report](Brief%20System%20Design%20Report%20_Crazyflie%20Project.pdf)
 
-[Link to the Project Git Repository](https://gits-15.sys.kth.se/denmag/DD2419_proj.git)
+[Link to the Project Git Repository](https://github.com/DevratSingh/Drone-Exploration.git)
 
 ## Object Detection with YOLOv3
 <p align="justify">
