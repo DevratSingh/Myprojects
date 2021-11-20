@@ -11,7 +11,7 @@ This project was implemented using ROS, with the implemented components being gr
 </p> 
 
 #### Exploration through KF localization, Traffic sign detection using CNN and RRT-based exploration 
-[![DD2419ph1](https://i.postimg.cc/Qd5sttnM/thumbph1.png)](https://youtu.be/8_smu3H0q7g "Project Video")
+[![DD2419ph1](https://github.com/DevratSingh/Myprojects/blob/main/Images/ThumbnailDD2419ph1.png)](https://youtu.be/8_smu3H0q7g "Project Video")
 
 [System Design Figure](Images/SysDiagph1.png)
 
@@ -63,7 +63,7 @@ This explores the matter of regulating the attitude and position of a quadrotor 
 <img src="https://media.giphy.com/media/XLjfw4kbLpWfmBDy22/giphy.gif"/>
 
 #### A fun montage of the project progress
-[![P5ph1](https://i.postimg.cc/dt4m1b0k/thumwithyoutph1.png)](https://youtu.be/keJKlU-01-o "A Drone Story")
+[![P5ph1](https://github.com/DevratSingh/Myprojects/blob/main/Images/thumwithyoutph1.png)](https://youtu.be/keJKlU-01-o "A Drone Story")
 
 ## 4th Semester: Speed Control of a PMDC Motor Using a DC-to-DC Buck Converter
 <p align="justify">
