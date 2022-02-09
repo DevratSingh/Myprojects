@@ -8,7 +8,7 @@ The main goal of this project was to allow for a "Crazyflie" drone to autonomous
 
 <p align="justify">
 This project was implemented using ROS, with the implemented components being gradually tested first on a Gazebo simulation and then finally integrated to test on the real drone.
-</p> 
+</p>
 
 #### Exploration through KF localization, Traffic sign detection using CNN and RRT-based exploration 
 [![DD2419ph1](https://github.com/DevratSingh/Myprojects/blob/main/Images/thumbph1.png)](https://youtu.be/8_smu3H0q7g "Project Video")
@@ -18,6 +18,26 @@ This project was implemented using ROS, with the implemented components being gr
 [Brief System Design Report](Brief%20System%20Design%20Report%20_Crazyflie%20Project.pdf)
 
 [Link to the Project Git Repository](https://github.com/DevratSingh/Drone-Exploration.git)
+
+## Detection, Tracking and Quantification of Grooming vs Non-Grooming Behaviour in Mice through Machine Learning
+<p align="justify">
+The study of self-grooming behavior of mice on a neural level is important as the mice serve as models for us humans, and this therefore gives us a better understanding of the neuroscience of human behaviors.
+Using computer vision based frameworks to study behavior has become increasingly popular, as it allows for efficient analysis of videos displaying certain behavioral patterns.
+However, many of the approaches using these frameworks lack generalizability, and only works accurately given the same experimental settings.
+In this work we explore the ability to model mice self-grooming behavior using the computer vision based framework DeepLabCut for trajectory extraction in combination with machine learning methods for trajectory classification.
+In particular, the trajectories extracted from using DeepLabCut are annotated and are modeled in a supervised manner using both an LSTM network and a TDA approach.
+We show that we are able to accurately distinguish the grooming trajectory sequences from the non-grooming ones which is evident given the evaluation of the LSTM network.
+</p> 
+
+
+#### Behaviour Tracking and Classification Examples with LSTM and TDA
+LSTM | TDA
+---- | ----
+<img src="Images/LSTMPredgif.gif"/> | <img src="Images/TDAPredgif.gif"/>
+
+[Presenation Slides](https://github.com/DevratSingh/Myprojects/blob/main/Presentation_DD2430.pdf)
+
+[Project Report](https://github.com/DevratSingh/Myprojects/blob/main/Detection_Tracking_and_Quantification_of_Grooming_Non-Grooming.pdf)
 
 ## Object Detection with YOLOv3
 <p align="justify">
