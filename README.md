@@ -10,7 +10,7 @@ This project was implemented using ROS, with the implemented components being gr
 </p>
 
 #### Exploration through KF localization, Traffic sign detection using CNN and RRT-based exploration 
-[![DD2419ph1](https://github.com/DevratSingh/Myprojects/blob/main/Images/thumbph1.png)](https://youtu.be/8_smu3H0q7g "Project Video")
+[![DD2419ph1](Images/thumbph1.png)](https://youtu.be/8_smu3H0q7g "Project Video")
 
 [System Design Figure](Images/SysDiagph1.png)
 
@@ -40,9 +40,9 @@ We show that we are able to accurately distinguish the grooming trajectory seque
 | <img src="Images/LSTMPredgif.gif"/> | <img src="Images/TDAPredgif.gif"/> |
 
 
-[Presenation Slides](https://github.com/DevratSingh/Myprojects/blob/main/Presentation_DD2430.pdf)
+[Presenation Slides](Presentation_DD2430.pdf)
 
-[Project Report](https://github.com/DevratSingh/Myprojects/blob/main/Detection_Tracking_and_Quantification_of_Grooming_Non-Grooming.pdf)
+[Project Report](Detection_Tracking_and_Quantification_of_Grooming_Non-Grooming.pdf)
 
 ## Object Detection with YOLOv3
 <p align="justify">
@@ -94,7 +94,7 @@ This explores the matter of regulating the attitude and position of a quadrotor 
 <img src="https://media.giphy.com/media/XLjfw4kbLpWfmBDy22/giphy.gif"/>
 
 #### A fun montage of the project progress
-[![P5ph1](https://github.com/DevratSingh/Myprojects/blob/main/Images/thumwithyoutph1.png)](https://youtu.be/keJKlU-01-o "A Drone Story")
+[![P5ph1](Images/thumwithyoutph1.png)](https://youtu.be/keJKlU-01-o "A Drone Story")
 
 ## 4th Semester: Speed Control of a PMDC Motor Using a DC-to-DC Buck Converter
 <p align="justify">
