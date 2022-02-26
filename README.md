@@ -37,6 +37,18 @@ LSTM | TDA
 ---- | ----
 <img src="Images/LSTMPredgif.gif"/> | <img src="Images/TDAPredgif.gif"/>
 
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
+| head1        | head two          |
+|:-------------|:------------------|
+| <img src="Images/LSTMPredgif.gif"/> | <img src="Images/TDAPredgif.gif"/> |
+
+
 [Presenation Slides](https://github.com/DevratSingh/Myprojects/blob/main/Presentation_DD2430.pdf)
 
 [Project Report](https://github.com/DevratSingh/Myprojects/blob/main/Detection_Tracking_and_Quantification_of_Grooming_Non-Grooming.pdf)
