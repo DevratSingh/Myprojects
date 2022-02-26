@@ -1,5 +1,4 @@
-# MyProjects
-#### This repository contains the reports and other related information to the projects I have undertaken so far
+The objective here is to provide a detailed overview of the projects, I have taken so far. Most of the projects, have links to their respective resposiories and their documentations. Please bear in mind that some of the projects have been undertaken as group and I have played different key roles in them to accomplish the final goal, while also being aware of the intricasies involved in other modules.
 
 ## Autonomous Exploration of Crazyflie Drone in a Known Environment
 <p align="justify">
@@ -18,6 +17,9 @@ This project was implemented using ROS, with the implemented components being gr
 [Brief System Design Report](Brief%20System%20Design%20Report%20_Crazyflie%20Project.pdf)
 
 [Link to the Project Git Repository](https://github.com/DevratSingh/Drone-Exploration.git)
+
+## Automatic Parking
+something
 
 ## Detection, Tracking and Quantification of Grooming vs Non-Grooming Behaviour in Mice through Machine Learning
 <p align="justify">
