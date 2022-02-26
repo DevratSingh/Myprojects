@@ -1,4 +1,4 @@
-The objective here is to provide a detailed overview of the projects, I have taken so far. Most of the projects, have links to their respective resposiories and their documentations. Please bear in mind that some of the projects have been undertaken as group and I have played different key roles in them to accomplish the final goal, while also being aware of the intricasies involved in other modules.
+The objective here is to provide a detailed overview of the projects I have taken so far. Most of these projects have links to their respective respositories and documentations (unless priviate). Please bear in mind that some of the projects have been undertaken as a group and I have been responsible for different modules that contribute to the final system. However, I have made a point to also be aware of the intricasies of other components that form the specific system.
 
 ## Autonomous Exploration of Crazyflie Drone in a Known Environment
 <p align="justify">
