@@ -18,8 +18,12 @@ This project was implemented using ROS, with the implemented components being gr
 
 [Link to the Project Git Repository](https://github.com/DevratSingh/Drone-Exploration.git)
 
-## Automatic Parking
+## Automatic Parking: A Reachability, RRT, and MPC Based ROS Implementation on KTH's SVEA
 something
+
+[SVEA: Base Repository](https://github.com/DevratSingh/svea)
+
+[Presentation: Project Overview](Automatic_Control_Presentation.pdf)
 
 ## Detection, Tracking and Quantification of Grooming vs Non-Grooming Behaviour in Mice through Machine Learning
 <p align="justify">
