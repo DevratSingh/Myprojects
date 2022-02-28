@@ -19,7 +19,7 @@ This project was implemented using ROS, with the implemented components being gr
 [Link to the Project Git Repository](https://github.com/DevratSingh/Drone-Exploration.git)
 
 ## Automatic Parking: A Reachability, RRT, and MPC Based ROS Implementation on KTH's SVEA
-something
+Abstract, pending. To be written
 
 [SVEA: Base Repository](https://github.com/DevratSingh/svea)
 
