@@ -19,7 +19,7 @@ This project was implemented using ROS, with the implemented components being gr
 [Link to the Project Git Repository](https://github.com/DevratSingh/Drone-Exploration.git)
 
 ## Automatic Parking: A Reachability, RRT, and MPC Based ROS Implementation on KTH's SVEA
-Abstract, pending. To be written
+The project centered around the problem of autonoumous parking. Besides the main objective, the whole design process was left open for exploration. This meant the researcha nd selection of suitable algorithms and techniques, which facilitate the parking process. At the topmost level, the system design consisted of 4 main modules: 1) Reachability analysis, 2) Path Planning 3) Controller 5) ROS implementation. To be completed? 
 
 [SVEA: Base Repository](https://github.com/DevratSingh/svea)
 
