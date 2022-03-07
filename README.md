@@ -10,7 +10,12 @@ This project was implemented using ROS, with the implemented components being gr
 </p>
 
 #### Exploration through KF localization, Traffic sign detection using CNN and RRT-based exploration 
-[![DD2419ph1](Images/thumbph1.png)](https://youtu.be/8_smu3H0q7g "Project Video")
+<!--- [![DD2419ph1](Images/thumbph1.png)](https://youtu.be/8_smu3H0q7g "Project Video")--->
+
+<div align="center">
+  <a href="https://youtu.be/8_smu3H0q7g"><img src="Images/thumbph1.png" alt="Autonomous exploration"></a>
+</div>
+
 
 [System Design Figure](Images/SysDiagph1.png)
 
@@ -57,11 +62,16 @@ This project served as an opportunity to gain familiarity with Deep Neural Netwo
 To make for an inquisitive project, an emphasis was placed on understanding the intricacies such as the effect of each dataset on the result, the size of dataset as well as the type of objects being detected and classified. In particular, a comparison was made on how the network performed on small and large objects in the image.
 </p> 
 
+
 #### Results From Network Trained on COCO Dataset
+<p align="center">
 <img src="Images/COCO-1_clf2ph1.png"  width="750" height="300"/>
+</p>
 
 #### Results From Network Trained on VOC Dataset
+<p align="center">
 <img src="Images/VOC-1_clfph1.JPG"  width="750" height="300"/>
+</p>
 
 [Project Report](Object%20detection%20with%20YOLOv3.pdf)
 
@@ -95,10 +105,19 @@ This explores the matter of regulating the attitude and position of a quadrotor 
 
 
 #### Quick flight test of the implemented controllers on the drone constructed for this project
+<p align="center">
 <img src="https://media.giphy.com/media/XLjfw4kbLpWfmBDy22/giphy.gif"/>
+</p>
 
-#### A fun montage of the project progress
-[![P5ph1](Images/thumwithyoutph1.png)](https://youtu.be/keJKlU-01-o "A Drone Story")
+#### A build montage of the project 
+
+<!---- [![P5ph1](Images/thumwithyoutph1.png)](https://youtu.be/keJKlU-01-o "A Drone Story") --->
+
+<div align="center">
+  <a href="https://youtu.be/keJKlU-01-o"><img src="Images/thumbph1.png" alt="A Drone Story"></a>
+</div>
+ 
+
 
 ## 4th Semester: Speed Control of a PMDC Motor Using a DC-to-DC Buck Converter
 <p align="justify">
