@@ -11,6 +11,12 @@ The main goal of this project was to allow for a "Crazyflie" drone to autonomous
 This project was implemented using ROS, with the implemented components being gradually tested first on a Gazebo simulation and then finally integrated to test on the real drone.
 </p>
 
+[System Design Figure](Images/SysDiagph1.png)
+
+[Brief System Design Report](Brief%20System%20Design%20Report%20_Crazyflie%20Project.pdf)
+
+[Link to the Project Git Repository](https://github.com/DevratSingh/Drone-Exploration.git)
+
 <center> <h4>Exploration through KF localization, Traffic sign detection using CNN and RRT-based exploration</h4> </center>
 <!--- [![DD2419ph1](Images/thumbph1.png)](https://youtu.be/8_smu3H0q7g "Project Video")--->
 
@@ -19,11 +25,7 @@ This project was implemented using ROS, with the implemented components being gr
 </div>
 
 
-[System Design Figure](Images/SysDiagph1.png)
 
-[Brief System Design Report](Brief%20System%20Design%20Report%20_Crazyflie%20Project.pdf)
-
-[Link to the Project Git Repository](https://github.com/DevratSingh/Drone-Exploration.git)
 
 ## Automatic Parking: A Reachability, RRT, and MPC Based ROS Implementation on KTH's SVEA
 The project centered around the problem of autonoumous parking. Besides the main objective, the whole design process was left open for exploration. This meant the researcha nd selection of suitable algorithms and techniques, which facilitate the parking process. At the topmost level, the system design consisted of 4 main modules: 1) Reachability analysis, 2) Path Planning 3) Controller 5) ROS implementation. To be completed? 
@@ -42,6 +44,9 @@ In particular, the trajectories extracted from using DeepLabCut are annotated an
 We show that we are able to accurately distinguish the grooming trajectory sequences from the non-grooming ones which is evident given the evaluation of the LSTM network.
 </p> 
 
+[Presenation Slides](Presentation_DD2430.pdf)
+
+[Project Report](Detection_Tracking_and_Quantification_of_Grooming_Non-Grooming.pdf)
 
 #### Behaviour Tracking and Classification Examples with LSTM and TDA
 
@@ -50,10 +55,6 @@ We show that we are able to accurately distinguish the grooming trajectory seque
 |:-------------:|:------------------:|
 | <img src="Images/LSTMPredgif.gif"/> | <img src="Images/TDAPredgif.gif"/> |
 
-
-[Presenation Slides](Presentation_DD2430.pdf)
-
-[Project Report](Detection_Tracking_and_Quantification_of_Grooming_Non-Grooming.pdf)
 
 ## Object Detection with YOLOv3
 <p align="justify">
@@ -64,6 +65,9 @@ This project served as an opportunity to gain familiarity with Deep Neural Netwo
 To make for an inquisitive project, an emphasis was placed on understanding the intricacies such as the effect of each dataset on the result, the size of dataset as well as the type of objects being detected and classified. In particular, a comparison was made on how the network performed on small and large objects in the image.
 </p> 
 
+[Project Report](Object%20detection%20with%20YOLOv3.pdf)
+
+[Link to the Project Git Repository](https://gits-15.sys.kth.se/devrat/DD2424project.git)
 
 #### Results From Network Trained on COCO Dataset
 <p align="center">
@@ -75,9 +79,6 @@ To make for an inquisitive project, an emphasis was placed on understanding the 
 <img src="Images/VOC-1_clfph1.JPG"  width="750" height="300"/>
 </p>
 
-[Project Report](Object%20detection%20with%20YOLOv3.pdf)
-
-[Link to the Project Git Repository](https://gits-15.sys.kth.se/devrat/DD2424project.git)
 
 ## Bachelor's Thesis (6th Semester): LiDAR-based 2D EKF SLAM
 <p align="justify">
@@ -136,7 +137,10 @@ This project puts forward a particular solution in the form of a 3D scanning sys
 [Project Report](3rd%20Semester_Laser%20Scanner%20for%203D%20Indoor.pdf)
 
 #### Comparsion of the actual environment vs the scan obtained from our implementation
+
+<p align="center">
 <img src = "Images/P3image.PNG" width="500" height="500"/> 
+</p>
 
 ## 2nd Semester: Line Follower Automated Guided Vehicle for Medical Institutions
 <p align="justify">
@@ -146,11 +150,16 @@ This tackled the aspect of developing a prototype device that is capable of auto
 [Project Report](2nd%20Semester_Line%20Follower%20Automated%20Guided%20Vehicle%20for%20Medical%20Institutions.pdf)
 
 #### 3D printed structure for the project and its corresponding CAD model
+
+<p align="center">
 <img src = "Images/P2image.PNG" width="800" height="250"/>
+</p>
 
 #### A test of the integrated system
 
+<p align="center">
 <img src="Images/ezgif.com-gif-maker.gif" width="450"/>
+</p>
 
 
 
