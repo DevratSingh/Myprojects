@@ -27,8 +27,10 @@ This project was implemented using ROS, with the implemented components being gr
 
 
 
-## Automatic Parking: A Reachability, RRT, and MPC Based ROS Implementation on KTH's SVEA
-The project centered around the problem of autonoumous parking. Besides the main objective, the whole design process was left open for exploration. This meant the researcha nd selection of suitable algorithms and techniques, which facilitate the parking process. At the topmost level, the system design consisted of 4 main modules: 1) Reachability analysis, 2) Path Planning 3) Controller 5) ROS implementation. To be completed? 
+## Autonomous Parking for Non-holonomic vehiclce 
+This project was designed to complete the following challenge. The race course entailed a 
+
+The base problem here was to desgin a system which enables a non-holonomic vehicle to autonomously park. Moreover, for testing the said functionaility, a final test was preset, which entailed a timed routine in which the car starts from a known point, then proceeds towards the first parking spot 
 
 [SVEA: Base Repository](https://github.com/DevratSingh/svea)
 
@@ -38,7 +40,6 @@ The project centered around the problem of autonoumous parking. Besides the main
 <p align="justify">
 The study of self-grooming behavior of mice on a neural level is important as the mice serve as models for us humans, and this therefore gives us a better understanding of the neuroscience of human behaviors.
 Using computer vision based frameworks to study behavior has become increasingly popular, as it allows for efficient analysis of videos displaying certain behavioral patterns.
-However, many of the approaches using these frameworks lack generalizability, and only works accurately given the same experimental settings.
 In this work we explore the ability to model mice self-grooming behavior using the computer vision based framework DeepLabCut for trajectory extraction in combination with machine learning methods for trajectory classification.
 In particular, the trajectories extracted from using DeepLabCut are annotated and are modeled in a supervised manner using both an LSTM network and a TDA approach.
 We show that we are able to accurately distinguish the grooming trajectory sequences from the non-grooming ones which is evident given the evaluation of the LSTM network.
