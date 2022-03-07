@@ -1,4 +1,6 @@
-The objective here is to provide a detailed overview of the projects I have taken so far. Most of these projects have links to their respective respositories and documentations (unless priviate). Please bear in mind that some of the projects have been undertaken as a group and I have been responsible for different modules that contribute to the final system. However, I have made a point to also be aware of the intricasies of other components that form the specific system.
+<!--The objective here is to provide a detailed overview of the projects I have taken so far. Most of these projects have links to their respective respositories and documentations (unless priviate). Please bear in mind that some of the projects have been undertaken as a group and I have been responsible for different modules that contribute to the final system. However, I have made a point to also be aware of the intricasies of other components that form the specific system.-->
+
+I have always been keen on the process of system design and implementation. As such, in my education so far, I have made a conscious effort to undertake interesting yet challenging projects. In most of these projects, I have had the opportunity to be involved in various capacities, from management and research to implementation and testing. The reasoning behind the choice of these endeavors has been invariably flamed by my interest in the said topics as well as my desire to combine the theoretical with the practical.
 
 ## Autonomous Exploration of Crazyflie Drone in a Known Environment
 <p align="justify">
@@ -9,7 +11,7 @@ The main goal of this project was to allow for a "Crazyflie" drone to autonomous
 This project was implemented using ROS, with the implemented components being gradually tested first on a Gazebo simulation and then finally integrated to test on the real drone.
 </p>
 
-#### Exploration through KF localization, Traffic sign detection using CNN and RRT-based exploration 
+<center> <h4>Exploration through KF localization, Traffic sign detection using CNN and RRT-based exploration</h4> </center>
 <!--- [![DD2419ph1](Images/thumbph1.png)](https://youtu.be/8_smu3H0q7g "Project Video")--->
 
 <div align="center">
@@ -109,7 +111,7 @@ This explores the matter of regulating the attitude and position of a quadrotor 
 <img src="https://media.giphy.com/media/XLjfw4kbLpWfmBDy22/giphy.gif"/>
 </p>
 
-#### A build montage of the project 
+<center> <h4>A build montage of the project</h4> </center>
 
 <!---- [![P5ph1](Images/thumwithyoutph1.png)](https://youtu.be/keJKlU-01-o "A Drone Story") --->
 
@@ -117,7 +119,6 @@ This explores the matter of regulating the attitude and position of a quadrotor 
   <a href="https://youtu.be/keJKlU-01-o"><img src="Images/thumbph1.png" alt="A Drone Story"></a>
 </div>
  
-
 
 ## 4th Semester: Speed Control of a PMDC Motor Using a DC-to-DC Buck Converter
 <p align="justify">
