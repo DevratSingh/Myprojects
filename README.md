@@ -29,11 +29,12 @@ This project was implemented using ROS, with the implemented components being gr
 
 ## Autonomous Parking for a Non-holonomic vehicle
 <p align="justify">
-We began with a challenge: To design and implement a system that could allow a car to complete a series of tasks autonomously. These tasks consisted of parking spots, which were spread apart and each required a different form of parking configuration (Parallel, Forward 90 deg, Backward 90). The implementation was intended for 
-<a href="https://raw.githubusercontent.com/DevratSingh/svea/main/media/svea_headshot.jpg">KTH’s SVEA</a>, a non-holonomic vehicle platform. Additionally, we had an obstacle map of the space in which the parking spots were distributed and an in-built localization module that could provide the estimated position of the system in the map. The position and configuration for each of these spots was only made aware just before the challenge.
-</p>
+We began with a challenge: To design and implement a system that could allow a car to autonomously complete a course while doing a series of tasks on the way. These tasks consisted of parking spots which required a specific form of parking configuration (Parallel, Forward 90 deg, Backward 90). The implementation was intended for <a href="https://raw.githubusercontent.com/DevratSingh/svea/main/media/svea_headshot.jpg">KTH’s SVEA</a>, a non-holonomic vehicle platform. As a base, the initial system came equipped with an obstacle map of the space in which the parking spots were distributed and a  localization module for supplying the car's estimated position in the map. However, the position and configuration of the parking spots were made aware right before the challenge. Rest of the design choices were left open ended.
 
-[SVEA: Base Repository](https://github.com/DevratSingh/svea)
+As a solution, the designed system  is outlined by these modules: Car model, Feasibility Check, Path Planner, Controller, and Brain/State machine. The workflow of the system is as follows: At first, extract the map and the list of parking spots. Feed the extracted information into the Feasibility check module, which performs a backward reachability analysis. If it is possible to reach a given parking spot in the desired configuration, then the reachability analysis supplies a set of reachable points from which the Car can park as intended. This analysis is done before the car starts moving.  After the feasibility check, the Brain supplies the reachable points as start and goal poses to the path planner. The Planner module based on RRT-Reeds Shepp planning, outputs a trajectory to the Controller module. An MPC (Model Predictive Control) approach is utilized for trajectory tracking. The whole workflow is then repeated until all the feasible parking tasks are completed.
+
+There are several other intricacies involved in the implemented system, however, it is not possible to describe each of them here. The additional information could be found in the Readme and the <a href="Automatic_Control_Presentation.pdfg">presentation slides</a>.
+</p>
 
 [Presentation: Project Overview](Automatic_Control_Presentation.pdf)
 
