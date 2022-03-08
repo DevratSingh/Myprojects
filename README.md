@@ -29,7 +29,7 @@ This project was implemented using ROS, with the implemented components being gr
 
 ## Autonomous Parking for a Non-holonomic vehicle
 <p align="justify">
-We began with a challenge: To design and implement a system for a car to autonomously complete a series of parking tasks and return back to starting position. The parking spots were placed far apart from each other and each required a specific parking configuration (Parallel, Forward 90 degree, Backward 90 degree). The implementation was intended for <a href="https://raw.githubusercontent.com/DevratSingh/svea/main/media/svea_headshot.jpg">KTH’s SVEA</a>, a non-holonomic vehicle platform. As a base, the initial system came equipped with the map of the test area and a localization module for supplying the car's estimated location. However, the position and configuration of the parking spots were made aware right before the challenge. Rest of the design choices were left open ended.
+We began with a challenge: To design and implement a system for a Car to autonomously complete a series of parking tasks and return back to the starting position. The parking spots were placed far apart from each other and each required a specific parking configuration (Parallel, Forward 90 degree, Backward 90 degree). The implementation was intended for <a href="https://raw.githubusercontent.com/DevratSingh/svea/main/media/svea_headshot.jpg">KTH’s SVEA</a>, a non-holonomic vehicle platform. As a base, the initial system came equipped with the map of the test area and a localization module for supplying the Car's estimated location. However, the position and configuration of the parking spots were made aware just before the challenge. Rest of the design choices were left open ended.
 </p>
 
 <p align="justify">
