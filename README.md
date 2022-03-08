@@ -30,9 +30,13 @@ This project was implemented using ROS, with the implemented components being gr
 ## Autonomous Parking for a Non-holonomic vehicle
 <p align="justify">
 We began with a challenge: To design and implement a system for a car to autonomously complete a series of parking tasks and return back to starting position. The parking spots were placed far apart from each other and each required a specific parking configuration (Parallel, Forward 90 degree, Backward 90 degree). The implementation was intended for <a href="https://raw.githubusercontent.com/DevratSingh/svea/main/media/svea_headshot.jpg">KTH’s SVEA</a>, a non-holonomic vehicle platform. As a base, the initial system came equipped with the map of the test area and a localization module for supplying the car's estimated location. However, the position and configuration of the parking spots were made aware right before the challenge. Rest of the design choices were left open ended.
+</p>
 
-The designed solution is outlined by these modules: Car model, Feasibility Checker, Path Planner, Controller, and Brain/State machine. The workflow of the system is as follows: At first, extract the map and the list of parking spots. Feed the extracted information into the Feasibility checker, which performs Backward-Reachability analysis. If it is possible to reach a given parking spot in the desired configuration, then the reachability analysis supplies a set of points from which the Car can park as intended. This analysis is done before the car starts moving.  After the check, the Brain module parses the list of spots and assigns the the reachable points as start and goal poses to the path planner. The Planner module based on RRT Reeds Shepp, outputs a trajectory. The Controller i.e. MPC (Model Predictive Control) enables the car to follow the trajectory. The whole workflow is then repeated until all the feasible parking tasks are completed.
+<p align="justify">
+The designed solution is outlined by these modules: Car model, Feasibility Checker, Path Planner, Controller, and Brain/State machine. The workflow of the system is as follows: First, extract the map and the list of parking spots. Feed the extracted information into the Feasibility checker which performs Backward-Reachability analysis. It means, if it is possible to reach a given parking spot in the desired configuration, then the reachability analysis supplies a set of points from which the Car can reach the spot. After the check, for a particular parking task the Brain module assigns the reachable points as start and goal poses to the path planner. The Planner module based on RRT Reeds Shepp, then outputs a trajectory. Consequently, the MPC (Model Preditive Controller) makes the car follow the tracjectory and park in the spot. The whole workflow is then repeated until all the feasible parking tasks are completed.
+</p>
 
+<p align="justify">
 There are several other intricacies involved in the implemented system, however, it is not possible to describe each of them here. The additional information could be found in the Readme and the <a href="Automatic_Control_Presentation.pdfg">presentation slides</a>.
 </p>
 
@@ -42,7 +46,7 @@ There are several other intricacies involved in the implemented system, however,
 <p align="justify">
 The study of self-grooming behavior of mice on a neural level is important as the mice serve as models for us humans, and this therefore gives us a better understanding of the neuroscience of human behaviors.
 Using computer vision based frameworks to study behavior has become increasingly popular, as it allows for efficient analysis of videos displaying certain behavioral patterns.
-In this work we explore the ability to model mice self-grooming behavior using the computer vision based framework DeepLabCut for trajectory extraction in combination with machine learning methods for trajectory classification.
+  In this work we explore the ability to model mice self-grooming behavior using the computer vision based framework DeepLabCut for trajectory extraction in combination with machine learning methods for trajectory classification. 
 In particular, the trajectories extracted from using DeepLabCut are annotated and are modeled in a supervised manner using both an LSTM network and a TDA approach.
 We show that we are able to accurately distinguish the grooming trajectory sequences from the non-grooming ones which is evident given the evaluation of the LSTM network.
 </p> 
