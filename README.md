@@ -41,7 +41,7 @@ There are several other intricacies involved in the implemented system, however,
 </p>
 
 <p align="center">
-<img src="Images/parking.gif"/ width="55%" height="55%"">
+<img src="Images/parking.gif" width="55%" height="55%">
 </p>
 
 [Presentation: Project Overview](Automatic_Control_Presentation.pdf)
