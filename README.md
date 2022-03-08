@@ -1,6 +1,8 @@
 <!--The objective here is to provide a detailed overview of the projects I have taken so far. Most of these projects have links to their respective respositories and documentations (unless priviate). Please bear in mind that some of the projects have been undertaken as a group and I have been responsible for different modules that contribute to the final system. However, I have made a point to also be aware of the intricasies of other components that form the specific system.-->
 
+<p align="justify">
 I have always been keen on the process of system design and implementation, thus, I have made a conscious effort to partake in challenging yet interesting projects. Below are some of those projects. In most of these, I have had the opportunity to be involved in a multitude of roles, from management and research to implementation and testing. The reasoning behind the choice of these endeavors has invariably been flamed by my interest in the said topics, along with the desire to combine the theoretical with the practical.
+</p>
 
 ## Autonomous Exploration of Crazyflie Drone in a Known Environment
 <p align="justify">
@@ -21,7 +23,7 @@ This project was implemented using ROS, with the implemented components being gr
 <!--- [![DD2419ph1](Images/thumbph1.png)](https://youtu.be/8_smu3H0q7g "Project Video")--->
 
 <div align="center">
-  <a href="https://youtu.be/8_smu3H0q7g"><img src="Images/thumbph1.png" alt="Autonomous exploration"></a>
+  <a href="https://youtu.be/KqiXlK0wXLs"><img src="Images/thumbph1.png" alt="Autonomous exploration"></a>
 </div>
 
 
@@ -119,7 +121,7 @@ This explores the matter of regulating the attitude and position of a quadrotor 
 
 <center> <h4>A build montage of the project</h4> </center>
 
-<!---- [![P5ph1](Images/thumwithyoutph1.png)](https://youtu.be/keJKlU-01-o "A Drone Story") --->
+<!---- [![P5ph1](Images/thumwithyoutph1.png)](https://youtu.be/wuMSgZlYxO4 "A Drone Story") --->
 
 <div align="center">
   <a href="https://youtu.be/keJKlU-01-o"><img src="Images/thumwithyoutph1.png" alt="A Drone Story"></a>
