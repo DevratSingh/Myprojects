@@ -43,7 +43,7 @@ There are several other intricacies involved in the implemented system, however,
 
 <center> <h4>Simulation Tests</h4> </center>
 <p align="center">
-<img src="Images/parking.gif" width="70%" height="70%">
+<img src="Images/parkingSveaph1.gif" width="100%" height="100%">
 </p>
 
 [Presentation: Project Overview](Automatic_Control_Presentation.pdf)
