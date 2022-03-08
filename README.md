@@ -40,8 +40,10 @@ The designed solution is outlined by these modules: <a href="https://github.com/
 There are several other intricacies involved in the implemented system, however, it is not possible to describe each of them here. The additional information could be found in the Readme and the presentation slides.
 </p>
 
+
+<center> <h4>Simulation Tests</h4> </center>
 <p align="center">
-<img src="Images/parking.gif" width="55%" height="55%">
+<img src="Images/parking.gif" width="70%" height="70%">
 </p>
 
 [Presentation: Project Overview](Automatic_Control_Presentation.pdf)
