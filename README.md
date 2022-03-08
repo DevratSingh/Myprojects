@@ -25,9 +25,7 @@ This project was implemented using ROS, with the implemented components being gr
 </div>
 
 
-
-
-## Autonomous Parking for Non-holonomic vehiclce 
+## Autonomous Parking for a Non-holonomic vehiclce 
 This project was designed to complete the following challenge. The race course entailed a 
 
 The base problem here was to desgin a system which enables a non-holonomic vehicle to autonomously park. Moreover, for testing the said functionaility, a final test was preset, which entailed a timed routine in which the car starts from a known point, then proceeds towards the first parking spot 
@@ -49,7 +47,8 @@ We show that we are able to accurately distinguish the grooming trajectory seque
 
 [Project Report](Detection_Tracking_and_Quantification_of_Grooming_Non-Grooming.pdf)
 
-#### Behaviour Tracking and Classification Examples with LSTM and TDA
+<!-- #### Behaviour Tracking and Classification Examples with LSTM and TDA --->
+<center> <h4>Behaviour Tracking and Classification Examples with LSTM and TDA</h4> </center>
 
 
 |      LSTM    |         TDA       |
@@ -70,12 +69,15 @@ To make for an inquisitive project, an emphasis was placed on understanding the 
 
 [Link to the Project Git Repository](https://gits-15.sys.kth.se/devrat/DD2424project.git)
 
-#### Results From Network Trained on COCO Dataset
+<!--- #### Results From Network Trained on COCO Dataset --->
+<center> <h4>Results From Network Trained on COCO Dataset</h4> </center>
 <p align="center">
 <img src="Images/COCO-1_clf2ph1.png"  width="750" height="300"/>
 </p>
 
-#### Results From Network Trained on VOC Dataset
+<!--- #### Results From Network Trained on VOC Dataset -->
+<center> <h4>Results From Network Trained on VOC Dataset</h4> </center>
+
 <p align="center">
 <img src="Images/VOC-1_clfph1.JPG"  width="750" height="300"/>
 </p>
@@ -94,7 +96,8 @@ This project expands upon the famous online SLAM problem predominant in the fiel
 <!--- #### Simulation of EKF SLAM with unknown correspondences--->
 <!---  <img src="https://media.giphy.com/media/vAlQkLIw4yh1yoU22O/giphy.gif"/> --->
 
-### Simulation
+<!-- ### Simulation -->
+<center> <h3>Simulation Results</h3> </center>
 
 |     EKF Localization with unknown correspondences    |         EKF SLAM with unknown correspondences       |
 |:-------------:|:------------------:|
@@ -107,8 +110,9 @@ This explores the matter of regulating the attitude and position of a quadrotor 
 
 [Project Report](5th%20Semester_Quadrotor%20Attitiude%20and%20Position%20Stabilization.pdf)
 
+<!--- #### Quick flight test of the implemented controllers on the drone constructed for this project -->
+<center> <h4>Quick flight test of the implemented controllers on the drone constructed for this project</h4> </center>
 
-#### Quick flight test of the implemented controllers on the drone constructed for this project
 <p align="center">
 <img src="https://media.giphy.com/media/XLjfw4kbLpWfmBDy22/giphy.gif"/>
 </p>
@@ -118,7 +122,7 @@ This explores the matter of regulating the attitude and position of a quadrotor 
 <!---- [![P5ph1](Images/thumwithyoutph1.png)](https://youtu.be/keJKlU-01-o "A Drone Story") --->
 
 <div align="center">
-  <a href="https://youtu.be/keJKlU-01-o"><img src="Images/thumbph1.png" alt="A Drone Story"></a>
+  <a href="https://youtu.be/keJKlU-01-o"><img src="Images/thumwithyoutph1.png" alt="A Drone Story"></a>
 </div>
  
 
@@ -137,7 +141,9 @@ This project puts forward a particular solution in the form of a 3D scanning sys
 
 [Project Report](3rd%20Semester_Laser%20Scanner%20for%203D%20Indoor.pdf)
 
-#### Comparsion of the actual environment vs the scan obtained from our implementation
+<!-- #### Comparsion of the actual environment vs the scan obtained from our implementation -->
+
+<center> <h4>Comparsion of the actual environment vs the scan obtained from our implementation</h4> </center>
 
 <p align="center">
 <img src = "Images/P3image.PNG" width="500" height="500"/> 
@@ -150,13 +156,17 @@ This tackled the aspect of developing a prototype device that is capable of auto
 
 [Project Report](2nd%20Semester_Line%20Follower%20Automated%20Guided%20Vehicle%20for%20Medical%20Institutions.pdf)
 
-#### 3D printed structure for the project and its corresponding CAD model
+<!--- #### 3D printed structure for the project and its corresponding CAD model -->
+
+<center> <h4>3D printed structure for the project and its corresponding CAD model</h4> </center>
 
 <p align="center">
 <img src = "Images/P2image.PNG" width="800" height="250"/>
 </p>
 
-#### A test of the integrated system
+<!--- #### A test of the integrated system --->
+
+<center> <h4>A test of the integrated system</h4> </center>
 
 <p align="center">
 <img src="Images/ezgif.com-gif-maker.gif" width="450"/>
