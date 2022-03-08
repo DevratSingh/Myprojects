@@ -3,6 +3,7 @@ Group members: Christoffer Ejemyr, Devrat Singh, Gustav Lenart, Sofia Bedoire
 
 Supervisors: Adrian Wiltz, Alexander Johansson
 
+Please note that the code for this implementation is not available publically. If you want to use the code, please contact the authors
 # Installation
 
 ## Base Repository
@@ -199,7 +200,7 @@ roslaunch svea_core demo.launch is_sim:=false use_rviz:=false
 The solution to the project consists of a Reachability Analysis that checks for feasible parking spots and a Parking Loop that solves all parking tasks. An overview of the solution is shown in the following figure
 
 <p align="center">
-  <img src="./images/overviewflow2.png" />
+  <img src="Images/overviewflow2.png" />
 </p>
 
 The different modules of the solution are described in more detail in the sections below.
@@ -323,7 +324,7 @@ The computation is done by the command:
 ## If all goes well...
 We should get a plot similar to
 <p align="center">
-  <img src="./images/DEMOforward3Dyaw-34deg.png" />
+  <img src="Images/DEMOforward3Dyaw-34deg.png" />
 </p>
 
 Here the green blob is the parking spot and the red polygon represent the parking obstacles.
@@ -346,7 +347,7 @@ Thus, the way that reachability analysis is used with the scripts is to verify t
 # Planner
 ## Planner Workflow
 <p align="center">
-  <img src="./images/PlannerFlow.png" />
+  <img src="Images/PlannerFlow.png" />
 </p>
 
 ## Info
@@ -430,7 +431,7 @@ A PID speed controller is used to control the velocity. Given a control input ve
 To control the execution flow as described in the [overview](#overview-of-the-solution) the project implements scripts and state machines that work together to achive the correct execution logic. The machines are fault tolerant and exits cleanly if any unpredicted events occur. A schematic image of the workflow can be found in the image below.
 
 <p align="center">
-  <img src="./images/StateMachine.png" />
+  <img src="Images/StateMachine.png" />
 </p>
 
 The choice of state-based logic is easily motivated by the task at hand. During execution the vehicle takes some pre-defined steps to arrive at the destination. These steps, for example planning, following trajectory, waiting, etc., are all very easy to translate into descrete stages (states) during or between which actions are taken.
