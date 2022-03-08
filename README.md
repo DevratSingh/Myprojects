@@ -6,7 +6,7 @@ I have always been keen on the process of system design and implementation, thus
 
 ## Autonomous Exploration of Crazyflie Drone in a Known Environment
 <p align="justify">
-The main goal of this project was to allow for a "Crazyflie" drone to autonomously navigate and explore a known environment. The environment is given in terms of a map which contains the positions of walls and landmarks. Accordingly, three main components, namely  Perception, Localization, and Planning are integrated to allow for the system to navigate. The perception part uses a Deep Neural Network (SqueezeNet) to detect and classify the landmarks and then publishes the 6D pose of the perceived landmarks in the map. This is then fed into the localization component, which uses Kalman filter to integrate these measurements in order to provide the current pose of the drone. Finally, the planning part uses the map and the drone location to plan 3D obstacle free paths. An integral part of the planning system is the RRT-based exploration which ensures that all the areas within the map has been explored.
+The main goal of this project was to allow for a "<a href="https://raw.githubusercontent.com/DevratSingh/Myprojects/webpage/Images/Crazyflie.jpg">Crazyflie</a>" drone to autonomously navigate and explore a known environment. The environment is given in terms of a map which contains the positions of walls and landmarks. Accordingly, three main components, namely  Perception, Localization, and Planning are integrated to allow for the system to navigate. The perception part uses a Deep Neural Network (SqueezeNet) to detect and classify the landmarks and then publishes the 6D pose of the perceived landmarks in the map. This is then fed into the localization component, which uses Kalman filter to integrate these measurements in order to provide the current pose of the drone. Finally, the planning part uses the map and the drone location to plan 3D obstacle free paths. An integral part of the planning system is the RRT-based exploration which ensures that all the areas within the map has been explored.
 </p> 
 
 <p align="justify">
@@ -37,7 +37,7 @@ The designed solution is outlined by these modules: <a href="https://github.com/
 </p>
 
 <p align="justify">
-There are several other intricacies involved in the implemented system, however, it is not possible to describe each of them here. The additional information could be found in the Readme and the presentation slides</a>.
+There are several other intricacies involved in the implemented system, however, it is not possible to describe each of them here. The additional information could be found in the Readme and the presentation slides.
 </p>
 
 [Presentation: Project Overview](Automatic_Control_Presentation.pdf)
