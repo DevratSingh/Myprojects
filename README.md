@@ -33,14 +33,16 @@ We began with a challenge: To design and implement a system for a car to autonom
 </p>
 
 <p align="justify">
-The designed solution is outlined by these modules: Car model, Feasibility Checker, Path Planner, Controller, and Brain/State machine. The workflow of the system is as follows: First, extract the map and the list of parking spots. Feed the extracted information into the Feasibility checker which performs Backward-Reachability analysis. It means, if it is possible to reach a given parking spot in the desired configuration, then the reachability analysis supplies a set of points from which the Car can reach that spot. After the check, for a particular parking task the Brain module assigns the reachable points as start and goal poses to the path planner. The Planner module based on RRT Reeds Shepp, then outputs a trajectory. Consequently, the MPC (Model Predictive Controller) makes the car follow the trajectory and park in the spot. The whole workflow is then repeated until all the feasible parking tasks are completed.
+The designed solution is outlined by these modules: <a href="https://github.com/DevratSingh/Myprojects/blob/webpage/AutomaticParking.md#model">Car Model</a>, <a href="https://github.com/DevratSingh/Myprojects/blob/webpage/AutomaticParking.md#reachability-analysis">Feasibility Checker</a>, <a href="https://github.com/DevratSingh/Myprojects/blob/webpage/AutomaticParking.md#planner">Path Planner</a>, <a href="https://github.com/DevratSingh/Myprojects/blob/webpage/AutomaticParking.md#controller">Controller</a>, and <a href="https://github.com/DevratSingh/Myprojects/blob/webpage/AutomaticParking.md#implementation">Brain/State machine</a>. The workflow of the system is as follows: First, extract the map and the list of parking spots. Feed the extracted information into the Feasibility checker which performs Backward-Reachability analysis. It means, if it is possible to reach a given parking spot in the desired configuration, then the reachability analysis supplies a set of points from which the Car can reach that spot. After the check, for a particular parking task the Brain module assigns the reachable points as start and goal poses to the path planner. The Planner module based on RRT Reeds Shepp, then outputs a trajectory. Consequently, the MPC (Model Predictive Controller) makes the car follow the trajectory and park in the spot. The whole workflow is then repeated until all the feasible parking tasks are completed.
 </p>
 
 <p align="justify">
-There are several other intricacies involved in the implemented system, however, it is not possible to describe each of them here. The additional information could be found in the Readme and the <a href="Automatic_Control_Presentation.pdfg">presentation slides</a>.
+There are several other intricacies involved in the implemented system, however, it is not possible to describe each of them here. The additional information could be found in the Readme and the presentation slides</a>.
 </p>
 
 [Presentation: Project Overview](Automatic_Control_Presentation.pdf)
+
+[Project Readme](AutomaticParking.md)
 
 ## Detection, Tracking and Quantification of Grooming vs Non-Grooming Behaviour in Mice through Machine Learning
 <p align="justify">
