@@ -26,6 +26,7 @@ This project was implemented using ROS, with the implemented components being gr
   <a href="https://youtu.be/KqiXlK0wXLs"><img src="Images/thumbph1.png" alt="Autonomous exploration"></a>
 </div>
 
+<br />
 
 ## Autonomous Parking for a Non-holonomic vehicle
 <p align="justify">
@@ -50,6 +51,8 @@ There are several other intricacies involved in the implemented system, however,
 
 [Project Readme](AutomaticParking.md)
 
+<br />
+
 ## Detection, Tracking and Quantification of Grooming vs Non-Grooming Behaviour in Mice through Machine Learning
 <p align="justify">
 The study of self-grooming behavior of mice on a neural level is important as the mice serve as models for us humans, and this ,therefore gives us a better understanding of the neuroscience of human behaviors.
@@ -71,6 +74,16 @@ We show that we are able to accurately distinguish the grooming trajectory seque
 |:-------------:|:------------------:|
 | <img src="Images/LSTMPredgif.gif"/> | <img src="Images/TDAPredgif.gif"/> |
 
+<br />
+
+## Pedestrian Detection, and Particle Filter based Tracking in a Video
+<p align="justify">
+The aim of this project is to implement and compare the performance of particle filter based pedestrian/person tracking mechanism, that considers different methods for target representation. The application of Pedestrian/Person tracking can be found in autonomous cars, sports tracking, and surveillance. There are a plethora of other applications as well, making pedestrian tracking an important research area. This report details the particle filter methodology which utilizes the color histogram and moment invariant observation models along with a Fusion strategy that calculates scene adaptive weights for combining the before stated models. The implemented algorithms are then tested on a challenging video sequence of a person walking, with frequent occlusions, moving camera, and similar looking distractions. Finally, a comparative study is then conducted to analyze the difference in performance between the utilized methods i.e. Color Based, Moment Based and Fusion. This evaluation is performed w.r.t two metrics: euclidean distance and overlap area. The results are ranked, revealing the Fusion based method as the best, closely followed by Color histogram and then Moment invariant model with comparatively least accurate  tracking.
+</p>
+
+[Presenation Slides](PedestrianTracking.pdf)
+
+<br />
 
 ## Object Detection with YOLOv3
 <p align="justify">
@@ -98,6 +111,7 @@ To make for an inquisitive project, an emphasis was placed on understanding the 
 <img src="Images/VOC-1_clfph1.JPG"  width="750" height="300"/>
 </p>
 
+<br />
 
 ## Bachelor's Thesis (6th Semester): LiDAR-based 2D EKF SLAM
 <p align="justify">
@@ -118,6 +132,8 @@ This project expands upon the famous online SLAM problem predominant in the fiel
 |     EKF Localization with unknown correspondences    |         EKF SLAM with unknown correspondences       |
 |:-------------:|:------------------:|
 | <img src="https://media.giphy.com/media/mGVyICJ9FRpDTMa30X/giphy.gif"/> | <img src="https://media.giphy.com/media/vAlQkLIw4yh1yoU22O/giphy.gif"/> |
+
+<br />
 
 ## 5th Semester: Quadrotor Attitude and Position Stabilization using PID and LQR
 <p align="justify">
@@ -141,6 +157,7 @@ This explores the matter of regulating the attitude and position of a quadrotor 
   <a href="https://youtu.be/keJKlU-01-o"><img src="Images/thumwithyoutph1.png" alt="A Drone Story"></a>
 </div>
  
+<br />
 
 ## 4th Semester: Speed Control of a PMDC Motor Using a DC-to-DC Buck Converter
 <p align="justify">
@@ -149,6 +166,7 @@ The project focuses on the control of angular speed of a PMDC motor interfaced b
 
 [Project Report](4th%20Semester_Speed%20Control%20of%20PMDC%20Motor%20Using%20a%20DC-to-DC%20Buck%20Converter.pdf)
 
+<br />
 
 ## 3rd Semester: Laser Scanner for 3D Indoor Mapping
 <p align="justify">
@@ -164,6 +182,8 @@ This project puts forward a particular solution in the form of a 3D scanning sys
 <p align="center">
 <img src = "Images/P3image.PNG" width="500" height="500"/> 
 </p>
+
+<br />
 
 ## 2nd Semester: Line Follower Automated Guided Vehicle for Medical Institutions
 <p align="justify">
