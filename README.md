@@ -81,7 +81,7 @@ We show that we are able to accurately distinguish the grooming trajectory seque
 The aim of this project is to implement and compare the performance of particle filter based pedestrian/person tracking mechanism, that considers different methods for target representation. The application of Pedestrian/Person tracking can be found in autonomous cars, sports tracking, and surveillance. There are a plethora of other applications as well, making pedestrian tracking an important research area. This report details the particle filter methodology which utilizes the color histogram and moment invariant observation models along with a Fusion strategy that calculates scene adaptive weights for combining the before stated models. The implemented algorithms are then tested on a challenging video sequence of a person walking, with frequent occlusions, moving camera, and similar looking distractions. Finally, a comparative study is then conducted to analyze the difference in performance between the utilized methods i.e. Color Based, Moment Based and Fusion. This evaluation is performed w.r.t two metrics: euclidean distance and overlap area. The results are ranked, revealing the Fusion based method as the best, closely followed by Color histogram and then Moment invariant model with comparatively least accurate  tracking.
 </p>
 
-[Presenation Slides](PedestrianTracking.pdf)
+[Project Report](PedestrianTracking.pdf)
 
 <br />
 
